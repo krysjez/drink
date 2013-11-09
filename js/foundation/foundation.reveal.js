@@ -11,7 +11,7 @@
     locked : false,
 
     settings : {
-      animation: 'fadeAndPop',
+      animation: 'fade',
       animationSpeed: 250,
       closeOnBackgroundClick: true,
       closeOnEsc: true,

@@ -19,18 +19,24 @@
         
       </div>
       <div id="drink-text" class="large-8 columns">
-        <h3 class="drink-name">Slime Mold</h3> <a href="#nutrition" class="nutrition">Nutrition information</a>
+        <h3 class="drink-name">Slime Mold</h3> 
+        <a href="#" data-dropdown="drop-nutr" class="nutrition">Nutrition information</a>
+        <p id="drop-nutr" class="f-dropdown content" data-dropdown-content>
+          Here's some information, i guess
+        </p>
         <hr>
-        <ul class="ingredient-list">
-          <li>Ingredient 1</li>
-          <li>Ingredient 2</li>
-        </ul>
-      	<p>Some sort of generic instruction that amounts to "mix and drink" but in a fancy way</p>
-        <div id="voter" class="large-6 large-offset-6 columns">
-          <button>I like it</button> <!-- Change to class .success "thanks" after clicking -->
-          &nbsp;<button>+ Share</button>
+        <div id="drink-recipe">
+          <ul class="ingredient-list">
+            <li>Ingredient 1</li>
+            <li>Ingredient 2</li>
+          </ul>
+        	<p>Some sort of generic instruction that amounts to "mix and drink" but in a fancy way</p>
+          <div id="voter" class="large-6 large-offset-6 columns">
+            <button>I like it</button> <!-- Change to class .success "thanks" after clicking -->
+            &nbsp;<button>+ Share</button>
         </div>
       </div>
+    </div>
     </div>   <!-- End drink content (8 centered columns) -->   
   </div>     <!-- End drink info row -->
 
@@ -61,6 +67,8 @@
   </script>
   
   <script src="js/foundation.min.js"></script>
+
+  <script src="js/foundation/foundation.dropdown.js"></script>
   <!--
   
   <script src="js/foundation/foundation.js"></script>
@@ -71,7 +79,6 @@
   
   <script src="js/foundation/foundation.cookie.js"></script>
   
-  <script src="js/foundation/foundation.dropdown.js"></script>
   
   <script src="js/foundation/foundation.forms.js"></script>
   

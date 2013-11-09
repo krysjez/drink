@@ -1,118 +1,107 @@
 body {
-    background-image:url('../img/fake.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
+	background-image:url('../img/fake.jpg');
+	background-size: 100%;
 }
 
 hr {
-    border: 0;
-    border-bottom: 1px solid darkgray;
+	border: 0;
+	border-bottom: 1px solid darkgray;
 }
 
 .drink-name {
-    float:left;
-    margin-bottom:0;
+	float:left;
+	margin-bottom:0;
+}
+
+.ingredient-list {
+	padding:0 1.5em 0 1.5em;
 }
 
 .nutrition {
-    margin-top:1em;
-    margin-bottom:0;
-    float:right;
+	margin-top:1em;
+	margin-bottom:0;
+	float:right;
 }
 
-.reveal-modal {
-   border-radius: 10px;    
-}
-
-.reveal-modal h2, .reveal-modal h4, .reveal-modal ol, .reveal-modal p {
-    color: black;
-}
 
 #header {
-    padding-top: 2.125em;
+	padding-top: 2.125em;
 }
-    #header h1, h2 {
-        text-align: center;
-        color:white;
-    }
+	#header h1, h2 {
+		text-align: center;
+		color:white;
+	}
 
 #drink-header {
-    margin-top: 3em;
-}
-
-#drink-recipe p {
-    text-align: left;
+	margin-top: 3em;
 }
 
 #drink-img {
-    padding-top:2em;
-}
-
-#top10 ol {
-    padding-left: 2em;
+	padding-top:2em;
+	height: 400px;
+	/*background: red;*/
 }
 
 #content {
-    text-align: center;
-    /*background-color:rgba(255,255,255,0.5);*/
+	text-align: center;
+	/*background-color:rgba(255,255,255,0.5);*/
 }
 
 #content p {
-    color: white;
+	color: white;
 }
 
-.shaded {
-    margin-top: 3em;
-    padding-top: 1em;
-    background: rgba(0,0,0,.5);
+#drink-content {
+	margin-top: 3em;
+	padding-top: 1em;
+	background: rgba(0,0,0,.5);
     border-radius: 10px;
 }
 
 #voter {
-    font-size: 0.8em;
-    text-align: center;
+	font-size: 0.8em;
+	text-align: center;
 }
 
-    #voter button {
-        overflow: visible;
-        position: relative;
-        border: 0;
-        padding: 0 15px 0 15ox;
-        cursor: pointer;
-        height: 30px;
-        color: #fff;
-        text-transform: uppercase;
-        background: #cb5909;
-        border-radius: 3px;      
-        text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
-    }
+#voter button {
+    overflow: visible;
+    position: relative;
+    border: 0;
+    padding: 0 15px 0 15ox;
+    cursor: pointer;
+    height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #cb5909;
+    border-radius: 3px;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
 
-    #voter button:hover {
-        background: #f18e1c;
-    }
+#voter button:hover {
+	background: #f18e1c;
+}
 
-    #voter button.success {
-        background: #879C3A;
-    }
-
+#voter button.success {
+	background: #879C3A;
+}
 
 #footer {
-    font-size: 0.8em;
-    position: fixed;
+	font-size: 0.8em;
+	position: fixed;
     bottom: 0;
-    text-align: center;
+	text-align: center;
 }
 
-    #footer a, #footer li {
-        color:darkgray;
-        display: inline;
-        list-style-type: none;
-        padding-right: 2em;
-    }
+	#footer a, #footer li {
+		color:darkgray;
+		display: inline;
+		list-style-type: none;
+		padding-right: 2em;
+	}
 
-    #footer a:hover {
-        color:#f18e1c;
-    }
+	#footer a:hover {
+		color:#f18e1c;
+	}
 
 /*Search bar*/
 /*Clear floats*/
@@ -173,7 +162,6 @@ hr {
     cursor: pointer;
     height: 40px;
     width: 110px;
-    /*font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';*/
     color: #fff;
     text-transform: uppercase;
     background: #cb5909;
@@ -213,25 +201,4 @@ hr {
 .form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
     border: 0;
     padding: 0;
-}
-
-.ui-autocomplete {
-    max-height: 100px;
-    overflow-y: auto;
-    /* prevent horizontal scrollbar */
-    overflow-x: hidden;
-}
-
-.results {
-    display: none;
-}
-
-.ingredient-list li {
-    list-style: none;
-    text-align: left;
-}
-
-.form-wrapper input {
-    margin: 0;
-}
-
+}    
