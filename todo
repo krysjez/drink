@@ -1,0 +1,10 @@
+Colors:
+primary: #cb5909
+secondary: #f18e1c
+alert: #c60f13
+success: #b2c95d
+body, header: white
+
+to fix:
+search bar breaks when resizing
+footer alignment
