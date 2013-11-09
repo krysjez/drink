@@ -2,6 +2,7 @@ body {
     background-image:url('../img/fake.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: black;
 }
 
 hr {
