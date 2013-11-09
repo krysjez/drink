@@ -39,6 +39,7 @@ hr {
 #drink-img {
 	padding-top:2em;
 	height: 400px;
+	/*background: red;*/
 }
 
 #content {
@@ -57,14 +58,18 @@ hr {
     border-radius: 10px;
 }
 
+#voter {
+	font-size: 0.8em;
+	text-align: center;
+}
+
 #voter button {
     overflow: visible;
     position: relative;
     border: 0;
-    padding: 0;
+    padding: 0 15px 0 15ox;
     cursor: pointer;
     height: 30px;
-    width: 110px;
     color: #fff;
     text-transform: uppercase;
     background: #cb5909;
