@@ -12,41 +12,40 @@
 
 </head>
 <body>
-
-	<div class="row">  <!-- Header row -->
-    <div id="header" class="large-8 large-centered columns">
-      <h2>Cheers!</h2>
-    </div>
-  </div>        <!-- End of header row -->
-
 	<div id="drink-content" class="row">	<!-- Drink info row -->
 		<div class="large-8 large-centered columns">
       <div id="drink-img" class="large-4 columns">
         <img src="./img/components/martini.png">
-        Image generating thingy with jquery or something goes here, i guess.
-        we need to think about how to do it.
       </div>
       <div id="drink-text" class="large-8 columns">
-        <h3>Slime Mold</h3>
+        <h3 class="drink-name">Slime Mold</h3> <a href="#nutrition" class="nutrition">Nutrition information</a>
         <hr>
-        <h5>Nutrition information</h5>
-      	<p>Maybe we wanna put a help link or something?</p>
+        <ul class="ingredient-list">
+          <li>Ingredient 1</li>
+          <li>Ingredient 2</li>
+        </ul>
+      	<p>Some sort of generic instruction that amounts to "mix and drink" but in a fancy way</p>
+        <div id="voter">
+          <p>Mixed this drink? How was it?</p>
+          <button class="success">I like it</button>  <!--  Change to class .success "thanks" after clicking -->
+        </div>
       </div>
     </div>   <!-- End drink content (8 centered columns) -->   
   </div>     <!-- End drink info row -->
 
-  <div id="rate" class="row"> <!-- Voting/show new row -->
+  <div id="search" class="row"> <!-- Search row -->    
     <div class="large-8 large-centered columns">
+      
       	<form class="form-wrapper cf">
-	        <input type="text" placeholder="Enter a spirit, ingredient, name of drink..." required>
+          <p>Try something new or one of the community's <a href="#top10">top 10 favorites</a>.</p>
+	        <input type="text" placeholder=" Enter a spirit, ingredient, name of drink..." required>
 	        <button type="submit">ANOTHER!</button>
 	    </form>
-       <p>Or try one of the community's <a href="#top10">top 10 favorites</a>.</p>
     </div> 
-	</div>			<!-- End of voting row -->
+	</div>			<!-- End of search row -->
 
 	<div id="footer" class="row">	<!-- Footer row -->
-		<div class="large-8 large-centered columns">
+		<div class="large-12 columns">
 			<ul>
 			<li><a href="#about">About</a></li>
 			<li><a href="#feedback">Feedback</a></li>

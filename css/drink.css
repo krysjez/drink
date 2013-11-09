@@ -5,8 +5,22 @@ body {
 
 hr {
 	border: 0;
-	margin-top: -1em;
 	border-bottom: 1px solid darkgray;
+}
+
+.drink-name {
+	float:left;
+	margin-bottom:0;
+}
+
+.ingredient-list {
+	padding:0 1.5em 0 1.5em;
+}
+
+.nutrition {
+	margin-top:1em;
+	margin-bottom:0;
+	float:right;
 }
 
 
@@ -37,8 +51,33 @@ hr {
 }
 
 #drink-content {
+	margin-top: 3em;
+	padding-top: 1em;
 	background: rgba(0,0,0,.5);
     border-radius: 10px;
+}
+
+#voter button {
+    overflow: visible;
+    position: relative;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 30px;
+    width: 110px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #cb5909;
+    border-radius: 3px;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+
+#voter button:hover {
+	background: #f18e1c;
+}
+
+#voter button.success {
+	background: #879C3A;
 }
 
 #footer {
@@ -48,11 +87,15 @@ hr {
 	text-align: center;
 }
 
-	#footer a, li {
+	#footer a, #footer li {
 		color:darkgray;
 		display: inline;
 		list-style-type: none;
 		padding-right: 2em;
+	}
+
+	#footer a:hover {
+		color:#f18e1c;
 	}
 
 /*Search bar*/
@@ -99,22 +142,10 @@ hr {
 }
  
 .form-wrapper input::-webkit-input-placeholder {
-   color: #999;
+   color: #888888;
    font-weight: normal;
    font-style: italic;
 }
- 
-.form-wrapper input:-moz-placeholder {
-    color: #999;
-    font-weight: normal;
-    font-style: italic;
-}
- 
-.form-wrapper input:-ms-input-placeholder {
-    color: #999;
-    font-weight: normal;
-    font-style: italic;
-}    
  
 /* Form submit button */
 .form-wrapper button {
@@ -126,21 +157,20 @@ hr {
     cursor: pointer;
     height: 40px;
     width: 110px;
-    /*font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';*/
     color: #fff;
     text-transform: uppercase;
-    background: #d83c3c;
+    background: #cb5909;
     border-radius: 0 3px 3px 0;      
     text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
 }   
    
 .form-wrapper button:hover{     
-    background: #e54040;
+    background: #f18e1c;
 }   
    
 .form-wrapper button:active,
 .form-wrapper button:focus{   
-    background: #c42f2f;
+    background: #f18e1c;
     outline: 0;   
 }
  
@@ -149,18 +179,18 @@ hr {
     position: absolute;
     border-width: 8px 8px 8px 0;
     border-style: solid solid solid none;
-    border-color: transparent #d83c3c transparent;
+    border-color: transparent #cb5909 transparent;
     top: 12px;
     left: -6px;
 }
  
 .form-wrapper button:hover:before{
-    border-right-color: #e54040;
+    border-right-color: #f18e1c;
 }
  
 .form-wrapper button:focus:before,
 .form-wrapper button:active:before{
-        border-right-color: #c42f2f;
+        border-right-color: #f18e1c;
 }      
  
 .form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
