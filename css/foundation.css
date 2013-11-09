@@ -1318,6 +1318,10 @@ blockquote p {
 
   .show-for-print {
     display: inherit !important; } }
+/*    
+
+NOTE: I disabled button styles!
+
 button, .button {
   border-style: solid;
   border-width: 1px;
@@ -1486,7 +1490,10 @@ button, .button {
       border-radius: 1000px; } }
 @media only screen and (min-width: 768px) {
   button, .button {
-    display: inline-block; } }
+    display: inline-block; } }*/
+
+
+
 /* Standard Forms */
 form {
   margin: 0 0 1em; }
@@ -1496,7 +1503,7 @@ form .row .row {
   margin: 0 -0.5em; }
   form .row .row .column,
   form .row .row .columns {
-    padding: 0 0.5em; }
+    /*NOTE padding: 0 0.5em; }*/
   form .row .row.collapse {
     margin: 0; }
     form .row .row.collapse .column,
