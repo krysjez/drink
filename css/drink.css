@@ -3,7 +3,25 @@ body {
 	background-size: 100%;
 }
 
-#header h1, h2 {
-	padding-top: 
-	color:white;
+#header {
+	padding-top: 2.125em;
 }
+	#header h1, h2 {
+		text-align: center;;
+		color:white;
+	}
+
+#content {
+	background-color:rgba(255,255,255,0.5);
+}
+
+#footer {
+	text-align: center;
+}
+
+	#footer a, li {
+		color:white;
+		display: inline;
+		list-style-type: none;
+		padding-right: 2em;
+	}
